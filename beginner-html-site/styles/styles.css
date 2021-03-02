@@ -3,10 +3,15 @@ html {
     font-size: 10px;
     /* Google fonts 输出的 CSS */
     font-family: 'Open Sans', sans-serif;
+    background-color: #00539F;
   }
   h1 {
     font-size: 60px;
     text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: chartreuse;
+    text-shadow: 3px 3px 1px red;
   }
   
   p, li {
@@ -14,4 +19,15 @@ html {
     /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
     line-height: 2;
     letter-spacing: 1px;
+  }
+  body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: silver;
+    padding: 0 20px;
+    border: 5px solid black;
+  }
+  img{
+      margin: 0 auto;
+      display: block;
   }
